@@ -31,6 +31,7 @@ A proposta é criar uma página inicial interativa para o cardápio digital da m
 - HTML5
 - CSS3
 - JavaScript
+- Canva
 
   ## 🎯 Objetivos
 
