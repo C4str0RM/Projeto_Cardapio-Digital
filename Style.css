@@ -1,9 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-
-
+    font-family: 'Caveat Brush', cursive ;
+    background: linear-gradient(to bottom, #ffe6f0, #ffcce0 );
+    min-height: 100vh;
+    padding: 20px;
+    overflow-x: hidden;
+    flex-direction: column;
+    display: flex;
+    position: relative;
 }
 
 h1 {
-
-    
+    font-family: 'Caveat Brush', cursive;
+    font-size: 3.5em;
 }
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    color: #c4722d;
+    font-size: 1.3em;
+}
+
+.avatar {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 30%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  height: 120px;
+  width: 110px;
+  
+}
+
+.container {
+  text-align: center;
+  padding: 60px 20px;
+  color: #401900;
+  font-family: 'Caveat Brush', cursive;
+  z-index: 2;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.botao {
+  color: black;
+  background-color: #ffbcbe;
+  border-radius: 15px;
+  border-style: solid;
+  border-color:#ffaaad;
+  padding: 15px 100px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3em;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.botao:hover {
+  background-color: #ffa4a7;
+  cursor: pointer;
+}
+
+.slogan {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.5em;
+  color: #db9e32;
+}
+.fundo-coracoes {
+  background-image: url('rodape15.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: bottom center;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 800px; 
+  z-index: 0;
+  opacity: 0.9;
+}
+
+
