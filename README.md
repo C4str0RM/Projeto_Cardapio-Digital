@@ -4,7 +4,7 @@ Projeto desenvolvido como parte da iniciativa **Rolim Digital: Fortalecimento de
 
 ## 🎓 Projeto de Extensão
 
-Este projeto foi idealizado por estudantes da **Uninassau - Cacoal/RO**, curso de **Análise e Desenvolvimento de Sistemas (ADS)**, como atividade de Extensão Universitária. A proposta é unir tecnologia, design e impacto social para fortalecer o empreendedorismo em Rolim de Moura – RO.
+Este projeto foi idealizado por estudantes da **Uninassau - Cacoal/RO**, curso de **Análise e Desenvolvimento de Sistemas (ADS)**, como atividade de Extensão Universitária. A proposta é unir tecnologia, design e impacto social para fortalecer o microempreendedorismo em Rolim de Moura – RO.
 
 **Equipe responsável:**
 - Raycka Castro
