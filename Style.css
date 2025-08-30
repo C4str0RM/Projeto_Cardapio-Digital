@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&display=swapfamily=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Pacifico&display=swap');
 
 * {
     margin: 0;
@@ -24,9 +24,9 @@ h1 {
 }
 
 h2 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Caveat Brush', cursive;
     color: #c4722d;
-    font-size: 1.3em;
+    font-size: 1.8em;
 }
 
 .avatar {
@@ -88,8 +88,8 @@ h2 {
   color: #db9e32;
 }
 .fundo-coracoes {
-  background-image: url('rodape15.png');
-  background-repeat: no-repeat;
+  background-image: url('fundoatual.png');
+  background-repeat: repeat;
   background-size: cover; 
   background-position: bottom center;
 
@@ -102,4 +102,18 @@ h2 {
   opacity: 0.9;
 }
 
+.emoji-caindo {
+  position: absolute;
+  top: -30px;
+  font-size: 30px;
+  animation: cair 5s linear forwards;
+  z-index: 0;
+}
+
+@keyframes cair {
+  to {
+    transform: translateY(140vh);
+    opacity: 0;
+  }
+}
 
